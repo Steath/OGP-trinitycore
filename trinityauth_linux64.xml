@@ -1,0 +1,34 @@
+<game_config>
+  <game_key>trinityauth_linux64</game_key>
+  <protocol>trinityauth</protocol>
+  <game_name>Trinitycore authserver</game_name>
+  <server_exec_name>authserver</server_exec_name>
+  <cli_template> </cli_template>
+  <cli_params>
+    <cli_param id="IP" cli_string="" />
+    <cli_param id="PORT" cli_string="default_voice_port=" />
+    <cli_param id="CONTROL_PASSWORD" cli_string="serveradmin_password=" />
+  </cli_params>
+  <reserve_ports>
+    <port type="add" id="QUERY_PORT" cli_string="query_port=">24</port>
+    <port type="add" id="QUERY_SSH_PORT" cli_string="query_ssh_port=">35</port>
+    <port type="add" id="FILETRANSFER_PORT" cli_string="filetransfer_port=">20046</port>
+  </reserve_ports>
+  <exe_location>bin</exe_location>
+  <mods>
+    <mod key="default">
+      <name>None</name>
+    </mod>
+  </mods>
+  <replace_texts>
+    <text key="webhost_ip">
+      <default>^$</default>
+      <filepath>bin/query_ip_whitelist.txt</filepath>
+    </text>
+  </replace_texts>
+  <server_params>
+  </server_params>
+  <lock_files>
+    bin/authserver
+  </lock_files>
+</game_config>
