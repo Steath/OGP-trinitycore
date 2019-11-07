@@ -33,5 +33,6 @@ and click change home (you can ignore the massage which informs you that this ho
 You now can use Opengamepanel to manage your Trinitycore server.
 To access the console, just go to your worldserver and click on log viewer.
 
+⚠️
 Keep in mind that OGP will set the ownership of your Trinitycore directory and all files contained to your OGP-agent user.
 You can revert this by using: chown -R youruser:yourgroup /path/to/your/trinity/install/
