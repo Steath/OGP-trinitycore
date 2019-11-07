@@ -1,6 +1,6 @@
-https://github.com/TrinityCore/TrinityCore
-https://github.com/OpenGamePanel/OGP-Website
-https://github.com/OpenGamePanel/OGP-Agent-Linux
+https://github.com/TrinityCore/TrinityCore <br>
+https://github.com/OpenGamePanel/OGP-Website <br>
+https://github.com/OpenGamePanel/OGP-Agent-Linux <br>
 
 Assuming you already have Opengamepanel and Trinitycore installed.
 
