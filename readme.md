@@ -1,3 +1,7 @@
+https://github.com/TrinityCore/TrinityCore
+https://github.com/OpenGamePanel/OGP-Website
+https://github.com/OpenGamePanel/OGP-Agent-Linux
+
 Assuming you already have Opengamepanel and Trinitycore installed.
 
 1. Copy the XML files to {path to your OGP web root}/modules/config_games/server_configs/ and give ownership to your webserver user 
