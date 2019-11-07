@@ -5,7 +5,7 @@ Assuming you already have Opengamepanel and Trinitycore installed.
 3. Select new Gameserver.
 4. Select the Server where the Gameserver is supposed to be hosted.
 5. Select Gametype "Trinitycore authserver" and adjust the other settings to your needs.
-6. Change Homepath to the path to your trinitycore installation root directory (eg. /home/ogpbot/Trinitycore335)
+6. Change Homepath to the path to your trinitycore installation directory (eg. /home/ogpbot/Trinitycore335)
 and click Change Home.
 7. Set your IP/Port (default Port is 3724) and click set IP.
 8. Click Back to Game Monitor and start your authserver.
@@ -21,4 +21,4 @@ and click Change Home (you can ignore the massage which informs you that this ho
 You now can use Opengamepanel to manage your Trinitycore server.
 To access the Console, just go to your worldserver and click on Log Viewer.
 
-Keep in mind that OGP will set the ownership of your Trinitycore root directory and all files contained to your OGP-Agent User.
+Keep in mind that OGP will set the ownership of your Trinitycore directory and all files contained to your OGP-Agent User.
