@@ -6,28 +6,29 @@ Assuming you already have Opengamepanel and Trinitycore installed.
 
 1. Copy the XML files to {path to your OGP web root}/modules/config_games/server_configs/ and give ownership to your webserver user 
 by using: "chown www-data:www-data {path to your OGP web root}/modules/config_games/server_configs/trinity*"
+2. Go to administration -> Game/Mod config and click Update Configs
 
 Installing the authserver
 
-2. In OGP go to gameservers.
-3. Select new gameserver.
-4. Select the server where the gameserver is supposed to be hosted.
-5. Select Gametype "Trinitycore authserver" and adjust the other settings to your needs.
-6. Change Homepath to the path to your trinitycore installation directory (eg. /home/ogpbot/Trinitycore335)
+3. In OGP go to administration -> gameservers.
+4. Select new gameserver.
+5. Select the server where the gameserver is supposed to be hosted.
+6. Select Gametype "Trinitycore authserver" and adjust the other settings to your needs.
+7. Change Homepath to the path to your trinitycore installation directory (eg. /home/ogpbot/Trinitycore335)
 and click Change Home.
-7. Set your IP/Port (default Port is 3724) and click set IP.
-8. Click back to game monitor and start your authserver.
+8. Set your IP/Port (default Port is 3724) and click set IP.
+9. Click back to game monitor and start your authserver.
 
 Installing the worldserver
 
-9. Go to gameservers again.
-3. Select new gameserver.
-4. Select the server where the gameserver is supposed to be hosted.
-5. Select gametype "Trinitycore worldserver" and adjust the other settings to your needs.
-6. Change homepath to the path to your trinitycore installation root directory (eg. /home/ogpbot/Trinitycore335)
+10. Go to administration -> gameservers again.
+11. Select new gameserver.
+12. Select the server where the gameserver is supposed to be hosted.
+13. Select gametype "Trinitycore worldserver" and adjust the other settings to your needs.
+14. Change homepath to the path to your trinitycore installation root directory (eg. /home/ogpbot/Trinitycore335)
 and click change home (you can ignore the massage which informs you that this home is already chosen).
-7. Set your IP/Port (default Port is 8085) and click set IP.
-8. Click Back to game monitor and start your wordserver.
+15. Set your IP/Port (default Port is 8085) and click set IP.
+16. Click Back to game monitor and start your wordserver.
 
 You now can use Opengamepanel to manage your Trinitycore server.
 To access the console, just go to your worldserver and click on log viewer.
