@@ -1,6 +1,7 @@
 Assuming you already have Opengamepanel and Trinitycore installed.
 
-1. Copy the XML files to {yourOGPwebroot}/modules/config_games/server_configs/
+1. Copy the XML files to {path to your OGP web root}/modules/config_games/server_configs/ and give ownership to your webserver user 
+by using: "chown www-data:www-data {path to your OGP web root}/modules/config_games/server_configs/trinity*"
 2. In OGP go to Gameservers.
 3. Select new Gameserver.
 4. Select the Server where the Gameserver is supposed to be hosted.
