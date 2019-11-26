@@ -36,4 +36,4 @@ You can also execute commands from there.
 
 ⚠️
 Keep in mind that OGP will set the ownership of your Trinitycore directory and all files contained to your OGP-agent user.
-You can revert this by using: chown -R youruser:yourgroup /path/to/your/trinity/install/
+You can revert this by using: chown -R youruser:yourgroup /path/to/your/trinity/install/ and chattr -R -i /path/to/your/trinity/install/
